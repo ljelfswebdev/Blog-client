@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(to bottom, rgba(71, 71, 71, 1) 0%, rgba(0, 0, 0, 1) 100%);;
+  color: white;
+  font-family: Courier New;
+}
+
+/*Layout */
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  margin: 10px auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid white;
+}
+
+.active {
+  background-color: black;
+  color:black;
+  border-radius: 20px;
+}
+
+.active:hover {
+  background-color: grey;
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+nav a {
+  margin-left: 12px;
+  color:white;
+}
+
+nav a:hover {
+  color:grey;
+}
+
+nav .name {
+  margin-right: auto;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: white;
+  border-top: 1px solid white;
+}
+
+/*blog*/
+textarea {
+  width: 300px;
+  height: 250px;
+}
