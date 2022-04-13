@@ -13,7 +13,7 @@ const Blog = () => {
     const blogSubmit = async (e) => {
         e.preventDefault();
         try {
-          const { data } = await axios.post('http://localhost:8002/api/create-blog', { content, author });
+          const { data } = await axios.post(`${process.env.NEXT_PUBLIC_API}/create-blog`, { content, author });
           console.log("create post response => ", data);
           if (data.error) {
             toast.error(data.error);
