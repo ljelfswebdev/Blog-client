@@ -64,11 +64,11 @@ const Home = () => {
                   <div className='justify-content-between p-2'>
                     <span className='p-3'>
                       <Link href={`/blog/${blog._id}`}>
-                        <a><button className='btn btn-info col-2'>Edit</button></a>
+                        <a><button className='btn btn-info col-3'>Edit</button></a>
                       </Link>             
                     </span>
                     <span className='p-3'>
-                      <button className='btn btn-danger col-2' onClick={() => handleDelete(blog)}>Delete</button>
+                      <button className='btn btn-danger col-3' onClick={() => handleDelete(blog)}>Delete</button>
                     </span>
                   </div>
                 </div>
